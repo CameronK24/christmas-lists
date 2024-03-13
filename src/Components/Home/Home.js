@@ -1,6 +1,6 @@
 import React from "react";
 import './home.css';
-import Lists from './Lists/Lists';
+import Lists from '../Lists/Lists';
 
 const Home = () => {
 

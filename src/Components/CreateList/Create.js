@@ -5,7 +5,9 @@ const Create = () => {
   
 
   return (
-    <div></div>
+    <div className="create-wrapper">
+      
+    </div>
   )
 }
 

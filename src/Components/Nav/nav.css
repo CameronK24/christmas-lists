@@ -13,17 +13,19 @@
   align-items: center;
 }
 
-.nav-list li {
+.nav-list > * {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: calc(100% / 3);
   text-align: center;
+  text-decoration: none;
+  color: inherit;
   cursor: pointer;
   transition: .2s;
 }
 
-.nav-list li:hover {
+.nav-list > *:hover {
   background-color: aliceblue;
 }

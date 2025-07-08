@@ -1,12 +1,12 @@
 import './App.css';
 import Nav from './Components/Nav/Nav';
-import Home from './Components/Home/Home';
+import routes from './routes';
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <Nav/>
-      <Home/>
+      {routes}
     </div>
   );
 }

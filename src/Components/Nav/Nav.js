@@ -5,10 +5,9 @@ import './nav.css';
 const Nav = () => {
   return (
     <div className='nav-wrap'>
-      <ul className='nav-list'> 
-        <Link to='/home'>HOME</Link>
-        <Link to='/lists'>LISTS</Link>
-        <Link to='/create'>CREATE</Link>
+      <ul className='nav-list'>
+        <Link to='/lists'>Lists</Link>
+        <Link to='/my-list'>My List</Link>
       </ul>
     </div>
   )

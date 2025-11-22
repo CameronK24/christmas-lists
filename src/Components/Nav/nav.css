@@ -8,7 +8,7 @@
   display: flex;
   margin: auto;
   height: 100%;
-  width: 30%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -18,14 +18,17 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: calc(100% / 3);
+  width: calc(100% / 2);
   text-align: center;
   text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: bolder;
   color: inherit;
   cursor: pointer;
   transition: .2s;
 }
 
 .nav-list > *:hover {
-  background-color: aliceblue;
+  background-color: rgba(255, 255, 255, .5);
 }

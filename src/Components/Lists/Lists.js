@@ -2,8 +2,7 @@ import React from "react";
 import './lists.css';
 
 const Lists = () => {
-
-
+  
   return(
     <section className="list-wrapper">
       <section className="list">

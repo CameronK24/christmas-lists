@@ -1,7 +1,15 @@
 :root {
-  --blue: #3CA3C3;
-  --darkBlue: #3C60C3;
-  --lightBlue: #3CC39F;
+  --darkGreen: #357a38;
+  --green: #4caf50;
+  --lightGreen: #6fbf73;
+
+  --darkRed: #a73a38;
+  --red: #ef5350;
+  --lightRed: #f27573;
+
+  --darkBlue: #2e73ab;
+  --blue: #42a5f5;
+  --lightBlue: #67b7f7;
 }
 
 .app {
@@ -9,6 +17,7 @@
   width: 100vw;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  color: #34353e;
 }
 
 button {
